@@ -1,0 +1,19 @@
+@media screen and (max-width: 399px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+  .header .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .header .navigation {
+    width: 100%;
+  }
+  .navigation ul{
+    text-align: center;
+  }
+  .search{
+    margin-top: 40px;
+  }
+}

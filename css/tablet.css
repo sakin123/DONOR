@@ -1,0 +1,35 @@
+@media screen and (min-width:400px) and (max-width:611px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+  .header .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .header .navigation {
+    width: 100%;
+  }
+  .navigation ul{
+    text-align: center;
+  }
+  .search{
+    margin-top: 40px;
+  }
+      /* Camp */
+  #camp .place{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .place div{
+    width: 45%;
+  }
+  .fund img{
+    display: none;
+  }
+  .fund form {
+    text-align: center;
+    width: 90%;
+  }
+}

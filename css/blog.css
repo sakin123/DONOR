@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+h1,p{
+  text-align: center;
+  color: orangered;
+  margin-top: 20px;
+}
+p{
+  color: black;
+}
+.content{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.main {
+  width: 70%;
+  height:  auto;
+  box-sizing: border-box;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.sub{
+  width: 30%;
+  height: 100%;
+  overflow: scroll;
+}
+h2{
+  margin: 10px;
+  width: 100%;
+}
+h3{
+  text-align: justify;
+}
+img{
+  width: 200px;
+  height:  150px;
+  border-radius: 10px;
+}
+.top-posts{
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.sub .yesterday img{
+  width: 100px;
+  height: auto;
+  float: left;
+}
